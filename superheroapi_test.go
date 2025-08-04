@@ -179,7 +179,6 @@ func assertStatus(t testing.TB, got, want int) {
 	if got != want {
 		t.Errorf("did not get correct status, got %d, want %d", got, want)
 	}
-	fmt.Println(got)
 }
 
 func assertResponceBody(t testing.TB, got, want string) {
